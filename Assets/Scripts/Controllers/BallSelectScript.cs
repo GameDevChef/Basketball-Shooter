@@ -18,7 +18,7 @@ public class BallSelectScript : MonoBehaviour {
 			buttons.Add(btns[i].GetComponent<Button>());
 			buttons[i].onClick.AddListener(() => SelectABall());
 
-            Debug.Log("nowe");
+            Debug.Log("cos");
 		}
 	}
 
